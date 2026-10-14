@@ -1,3 +1,5 @@
+import FullscreenButton from "./FullscreenButton";
+
 interface Props {
   round: number;
   total: number;
@@ -59,6 +61,7 @@ export default function HUD({
         >
           跳過
         </button>
+        <FullscreenButton />
         <button
           type="button"
           onClick={onToggleMute}
